@@ -6,11 +6,12 @@ export class DataProvider {
 
 
     myData ={
-         "listItems":[
-            {listName: "buttermilk"},
-            {listName: "coconut"},
-            {listName: "butt butter"},
-            {listName: "milk"}]
+        "listItems":[
+            { "header":"B", "items":[{"listName": "buttermilk"},{"listName": "butt butter"}] },
+            { "header":"C", "items":[{"listName": "coconut"}] },
+            { "header":"M", "items":[{"listName": "milk"}] }
+        ]
+
     };
 
     constructor() {

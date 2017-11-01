@@ -8,8 +8,12 @@
 
 <ion-content padding>
     <ion-list>
-        <ion-item *ngFor="let item of items.listItems">
-                {{item.listName}}
-        </ion-item>
+        <ion-list-header *ngFor="let item of items.listItems">
+                {{item.header}}
+            <ion-item *ngFor="let value of item.items">
+                {{value.listName}}
+            </ion-item>
+        </ion-list-header>
+
     </ion-list>
 </ion-content>
