@@ -7,9 +7,9 @@ export class DataProvider {
 
     myData ={
         "listItems":[
-            { "header":"B", "items":[{"listName": "buttermilk"},{"listName": "butt butter"}] },
-            { "header":"C", "items":[{"listName": "coconut"}] },
-            { "header":"M", "items":[{"listName": "milk"}] }
+            { "header":"B", "items":[{"listName": "B Gata H K "},{"listName": "Bleach"}] },
+            { "header":"C", "items":[{"listName": "Campione!"}] },
+            { "header":"M", "items":[{"listName": "Machine Doll wa Kizutsukanai"}] }
         ]
 
     };
